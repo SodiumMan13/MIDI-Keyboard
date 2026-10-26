@@ -1,0 +1,119 @@
+(footprint "MIDI keys"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "4e381e69-664a-4b3a-b78f-33ccdaf1553e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "MIDI keys"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6c633903-c2c7-42ff-90b0-2bae6976c016")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "75d60930-228b-42db-a5fd-4591cf380ec9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "874189d8-e99d-497e-b9a4-f2c3a64d2061")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1a4adc92-bb60-4786-b8d0-1e24bf6b1eee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 8 -25)
+		(size 16 50)
+		(layers "F.Cu" "F.Mask")
+		(uuid "e1a42590-d173-45f1-aee3-4aeb56e511f9")
+	)
+	(pad "2" smd rect
+		(at 26 -25)
+		(size 16 50)
+		(layers "F.Cu" "F.Mask")
+		(uuid "093a8c92-a856-4ac6-a2d9-5bb835ecc86f")
+	)
+	(pad "3" smd rect
+		(at 44 -25)
+		(size 16 50)
+		(layers "F.Cu" "F.Mask")
+		(uuid "25ea97e0-3a74-48c9-9516-48ff115c4bd9")
+	)
+	(pad "4" smd rect
+		(at 62 -25)
+		(size 16 50)
+		(layers "F.Cu" "F.Mask")
+		(uuid "dd56cbfc-e6ac-47cb-8828-a49100869f26")
+	)
+	(pad "5" smd rect
+		(at 80 -25)
+		(size 16 50)
+		(layers "F.Cu" "F.Mask")
+		(uuid "e3ae0709-1fbe-408e-a695-d97260148c7d")
+	)
+	(pad "6" smd rect
+		(at 17 -64.5)
+		(size 16 25)
+		(layers "F.Cu" "F.Mask")
+		(uuid "6507dd78-0acc-4045-b8a5-9a5558d020aa")
+	)
+	(pad "7" smd rect
+		(at 35 -64.5)
+		(size 16 25)
+		(layers "F.Cu" "F.Mask")
+		(uuid "651d19c2-d6ab-4654-af7d-f3c2bbff2e3f")
+	)
+	(pad "8" smd rect
+		(at 71 -64.5)
+		(size 16 25)
+		(layers "F.Cu" "F.Mask")
+		(uuid "22a101c9-247f-48eb-9846-bf6e86aeb0de")
+	)
+	(embedded_fonts no)
+)
