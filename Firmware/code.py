@@ -1,4 +1,3 @@
-# Vibe coding some firmware because python is boring 🤑
 import keypad
 import touchio
 from adafruit_midi.control_change import ControlChange
